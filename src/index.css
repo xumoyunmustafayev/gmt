@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    background-color: #F8F7F3;
+
+}
+
+.container{
+    max-width: 1310px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 0 20px;
+}
+
+div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, header,img, footer, section, article, aside, main, nav, form, table{
+    background-color: transparent;
+}
+
+.custom-scrollbar {
+    overflow-y: scroll;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    display: none; 
+}
+
+.custom-scrollbar {
+    scrollbar-width: none; 
+}
+
+
+.custom-scrollbar {
+    -ms-overflow-style: none; 
+}
