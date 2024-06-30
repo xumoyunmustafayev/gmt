@@ -34,13 +34,13 @@ const Hero = () => {
         <div className="hidden md:flex absolute z-10 bottom-[33px] right-10 gap-4 items-center">
           <button
             onClick={HandlePrev}
-            className={` bg-[#F8F7F3] hover:border-[#07745E] border-[#088269] duration-200 focus:bg-[#e1efe6] focus:border-[#07745E] transition-all  rounded-full border border-[--border] p-3 `}
+            className={` bg-[#F8F7F3] hover:border-[#07745E] border-[#088269] duration-200 focus:bg-[#e1efe6] focus:border-[#07745E] transition-all  rounded-full border p-3 `}
           >
             <FaArrowLeft className="w-[17px] h-[17px] "></FaArrowLeft>
           </button>
           <button
             onClick={HandleNext}
-            className={` bg-[#F8F7F3]  duration-200   transition-all  rounded-full border border-[--border] p-3 `}
+            className={` bg-[#F8F7F3] hover:border-[#07745E] border-[#088269] duration-200 focus:bg-[#e1efe6] focus:border-[#07745E] transition-all  rounded-full border p-3  `}
           >
             <FaArrowRight className="w-[17px] h-[17px] bg-transparent "></FaArrowRight>
           </button>
@@ -50,25 +50,25 @@ const Hero = () => {
         <span
           onClick={() => setIsShow(0)}
           className={` ${
-            isShow == 0 ? "w-[76px]  bg-[#7A7687]" : "w-[6px] bg-[#b9b6bc] "
+            isShow == 0 ? "w-[36px]  bg-[#7A7687]" : "w-[6px] bg-[#b9b6bc] "
           } cursor-pointer duration-500 h-[6px] block rounded `}
         ></span>
         <span
           onClick={() => setIsShow(1)}
           className={` ${
-            isShow == 1 ? "w-[76px]  bg-[#7A7687]" : "w-[6px] bg-[#b9b6bc] "
+            isShow == 1 ? "w-[36px]  bg-[#7A7687]" : "w-[6px] bg-[#b9b6bc] "
           } cursor-pointer duration-500 h-[6px] block rounded `}
         ></span>
         <span
           onClick={() => setIsShow(2)}
           className={` ${
-            isShow == 2 ? "w-[76px]  bg-[#7A7687]" : "w-[6px] bg-[#b9b6bc] "
+            isShow == 2 ? "w-[36px]  bg-[#7A7687]" : "w-[6px] bg-[#b9b6bc] "
           } cursor-pointer duration-500 h-[6px] block rounded `}
         ></span>
         <span
           onClick={() => setIsShow(3)}
           className={` ${
-            isShow == 3 ? "w-[76px]  bg-[#7A7687]" : "w-[6px] bg-[#b9b6bc] "
+            isShow == 3 ? "w-[36px]  bg-[#7A7687]" : "w-[6px] bg-[#b9b6bc] "
           } cursor-pointer duration-500 h-[6px] block rounded `}
         ></span>
       </div>

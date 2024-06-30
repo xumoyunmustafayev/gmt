@@ -11,6 +11,7 @@ import Kabinet from "../components/home/Kabinet";
 import Product from "../components/home/Product";
 
 const HomePage = () => {
+  
   return (
     <div className="mt-12">
       <Hero />

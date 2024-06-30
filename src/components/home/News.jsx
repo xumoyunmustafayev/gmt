@@ -3,6 +3,9 @@ import { GrFormNextLink } from "react-icons/gr";
 import { IoMdArrowBack } from "react-icons/io";
 
 const News = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [itemsPerSlide, setItemsPerSlide] = useState(3);
 
@@ -61,6 +64,24 @@ const News = () => {
       description: "Допускает внедрение поэтапного и развития общества.",
       imgSrc: "./Recta.png",
     },
+    {
+      date: "07.11.2022",
+      title: "Название новости 4",
+      description: "Допускает внедрение поэтапного и развития общества.",
+      imgSrc: "./Recta.png",
+    },
+    {
+      date: "07.11.2022",
+      title: "Название новости 4",
+      description: "Допускает внедрение поэтапного и развития общества.",
+      imgSrc: "./Recta.png",
+    },
+    {
+      date: "07.11.2022",
+      title: "Название новости 4",
+      description: "Допускает внедрение поэтапного и развития общества.",
+      imgSrc: "./Recta.png",
+    },
   ];
 
   const handleNext = () => {
@@ -80,8 +101,8 @@ const News = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(handleNext, 3000); // Auto-rotate every 3 seconds
-    return () => clearInterval(interval); // Cleanup interval on component unmount
+    const interval = setInterval(handleNext, 3000); 
+    return () => clearInterval(interval); 
   }, []);
 
   useEffect(() => {
@@ -108,7 +129,7 @@ const News = () => {
       </div>
       <div className="w-[85%] overflow-hidden max-lg:w-full">
         <div
-          className="flex transition-transform duration-300 gap-6 relative"
+          className="flex transition-transform duration-300  gap-6 relative"
           style={{
             transform: `translateX(-${currentSlide * (100 / itemsPerSlide)}%)`,
           }}
@@ -116,7 +137,7 @@ const News = () => {
           {newsItems.map((item, index) => (
             <div
               key={index}
-              className={`w-[${90 / itemsPerSlide}%] flex-shrink-0`}
+              className={`w-[${90 / itemsPerSlide}%] flex-shrink-0 max-w-80`}
             >
               <img
                 src={item.imgSrc}

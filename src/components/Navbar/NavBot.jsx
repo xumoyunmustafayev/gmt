@@ -136,21 +136,21 @@ const NavBot = () => {
           <p className="text-[#202020] font-bold text-[14px]">
             Кабинеты под ключ
           </p>
-          <p className="text-[#202020] font-bold text-[14px]">Услуги</p>
+          <Link to="/usluga">
+            <p className="text-[#202020] font-bold text-[14px]">Услуги</p>
+          </Link>
           <p className="text-[#202020] font-bold text-[14px]">Акции</p>
           <p className="text-[#202020] font-bold text-[14px]">Контакты</p>
         </div>
         <div className="flex xl:flex gap-3 cursor-pointer ">
           <div className="flex gap-2 items-center">
-            <p className="text-[#202020] font-bold text-[14px] ">Контакты</p>
+            <p className="text-[#202020] font-bold text-[14px] ">Москва</p>
             <IoLocationOutline className="text-[#202020] font-bold text-lg " />
           </div>
           <div className="border px-5 py-3 font-bold rounded-3xl md:text-[13px] xl:block 2xl:block md:hidden sm:hidden">
             <p className="text-[14px]">+7(495)000-00-00</p>
           </div>
-          <button
-            className="px-7 py-3 bg-[#088269] rounded-3xl md:text-[13px] xl:block  2xl:block  md:hidden sm:hidden text-[#F8F7F3] font-bold text-[14px]"
-          >
+          <button className="px-7 py-3 bg-[#088269] rounded-3xl md:text-[13px] xl:block  2xl:block  md:hidden sm:hidden text-[#F8F7F3] font-bold text-[14px]">
             Заказать звонок
           </button>
           <button className="p-2 bg-[#088269] text-white rounded-full xl:hidden ">

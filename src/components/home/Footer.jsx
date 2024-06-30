@@ -3,6 +3,7 @@ import Mes from "../../../public/mes.png";
 import FooterBot from "./FooterBot";
 
 const Footer = () => {
+  
   return (
     <>
       <div className="mt-20 bg-[#E5E4ED]">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Popular = () => {
   return (
@@ -6,9 +7,11 @@ const Popular = () => {
       <div className="my-24">
         <div className="flex justify-between flex-wrap">
           <h2 className="text-[30px] mb-4 sm:mb-0">Популярные категории</h2>
-          <button className="px-7 py-3 bg-[#088269] rounded-3xl text-white font-bold text-[14px]">
-            Все категории
-          </button>
+          <Link to="/katalog">
+            <button className="px-7 py-3 bg-[#088269] rounded-3xl text-white font-bold text-[14px]">
+              Все категории
+            </button>
+          </Link>
         </div>
         <div className="py-16 gap-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
           <div className="flex flex-col col-span-1 md:col-span-2 lg:col-span-1 justify-between w-full">

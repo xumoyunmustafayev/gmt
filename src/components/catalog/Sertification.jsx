@@ -2,63 +2,42 @@ import React, { useState, useEffect } from "react";
 import { GrFormNextLink } from "react-icons/gr";
 import { IoMdArrowBack } from "react-icons/io";
 
-const Brend = () => {
+const Sertification = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [itemsPerSlide, setItemsPerSlide] = useState(3);
 
   const newsItems = [
     {
-      title: "НМИЦ онкологии им. Н.Н. Блохина",
-      imgSrc: "../../../public/brand1.png",
+      imgSrc: "../../../public/assets/Ser.png",
     },
     {
-      date: "07.11.2022",
-      title: "НМИЦ онкологии им. Н.Н. Блохина",
-      description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "../../../public/brand2.png",
+      imgSrc: "../../../public/assets/Ser.png",
     },
     {
-      date: "07.11.2022",
-      title: "НМИЦ онкологии им. Н.Н. Блохина",
-      description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "../../../public/brand3.png",
+      imgSrc: "../../../public/assets/Ser.png",
     },
     {
-      date: "07.11.2022",
-      title: "НМИЦ онкологии им. Н.Н. Блохина",
-      description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "../../../public/brand1.png",
+      imgSrc: "../../../public/assets/Ser.png",
     },
     {
-      date: "07.11.2022",
-      title: "НМИЦ онкологии им. Н.Н. Блохина",
-      description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "../../../public/brand2.png",
+      imgSrc: "../../../public/assets/Ser.png",
     },
     {
-      date: "07.11.2022",
-      title: "НМИЦ онкологии им. Н.Н. Блохина",
-      description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "../../../public/brand3.png",
+      imgSrc: "../../../public/assets/Ser.png",
     },
     {
-      date: "07.11.2022",
-      title: "НМИЦ онкологии им. Н.Н. Блохина",
-      description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "../../../public/brand2.png",
+      imgSrc: "../../../public/assets/Ser.png",
     },
     {
-      date: "07.11.2022",
-      title: "НМИЦ онкологии им. Н.Н. Блохина",
-      description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "../../../public/brand3.png",
+      imgSrc: "../../../public/assets/Ser.png",
     },
     {
-      date: "07.11.2022",
-      title: "НМИЦ онкологии им. Н.Н. Блохина",
-      description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "../../../public/brand1.png",
+      imgSrc: "../../../public/assets/Ser.png",
     },
+    {
+      imgSrc: "../../../public/assets/Ser.png",
+    },
+
   ];
 
   const handleNext = () => {
@@ -78,8 +57,8 @@ const Brend = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(handleNext, 3000); 
-    return () => clearInterval(interval); 
+    const interval = setInterval(handleNext, 3000);
+    return () => clearInterval(interval);
   }, []);
 
   useEffect(() => {
@@ -114,16 +93,14 @@ const Brend = () => {
           {newsItems.map((item, index) => (
             <div
               key={index}
-              className={`w-[${90 / itemsPerSlide}%] flex-shrink-0 max-w-80`}
+              className={`w-[${90 / itemsPerSlide}%] flex-shrink-0 p-3 bg-white rounded-xl max-w-80`}
             >
               <img
                 src={item.imgSrc}
                 alt="img"
                 className="w-full h-[200px] object-contain bg-white"
               />
-              <div className="border py-5 pl-4 pr-8">
-                <h3 className="text-[18px] font-medium">{item.title}</h3>
-              </div>
+              
             </div>
           ))}
         </div>
@@ -153,4 +130,4 @@ const Brend = () => {
   );
 };
 
-export default Brend;
+export default Sertification;
