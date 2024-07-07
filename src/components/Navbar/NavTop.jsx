@@ -13,10 +13,12 @@ const NavTop = () => {
             <Link to="delevery">
               <li className="text-[#7A7687] text-[12px] ">Доставка</li>
             </Link>
-            <Link to='oplata'>
+            <Link to="oplata">
               <li className="text-[#7A7687] text-[12px] ">Оплата</li>
             </Link>
-            <li className="text-[#7A7687] text-[12px] ">Гарантии</li>
+            <Link to="/grante">
+              <li className="text-[#7A7687] text-[12px] ">Гарантии</li>
+            </Link>
             <Link to="/blog/informatsionny">
               <li className="text-[#7A7687] text-[12px] ">Блог</li>
             </Link>

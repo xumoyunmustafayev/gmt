@@ -23,7 +23,6 @@ const HomePage = () => {
       <Information />
       <News />
       <Map />
-      <Footer />
     </div>
   );
 };

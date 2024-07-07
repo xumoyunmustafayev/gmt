@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Rec from '../../../public/Rec.png'
 
 const Oprtions = () => {
      const [sortOption, setSortOption] = useState("useful");
@@ -184,7 +183,7 @@ const Oprtions = () => {
               <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
                 <div className="border rounded-xl">
                   <img
-                    src="../../../public/Rec.png"
+                    src="../../../public/Rec-min.png"
                     alt="img"
                     className="w-full rounded-t-xl "
                   />
@@ -196,7 +195,7 @@ const Oprtions = () => {
                 </div>
                 <div className="border rounded-xl">
                   <img
-                    src="../../../public/Rec.png"
+                    src="../../../public/Rec-min.png"
                     alt="img"
                     className="w-full rounded-t-xl"
                   />
@@ -208,7 +207,7 @@ const Oprtions = () => {
                 </div>
                 <div className="border rounded-xl">
                   <img
-                    src="../../../public/Rec.png"
+                    src="../../../public/Rec-min.png"
                     alt="img"
                     className="w-full rounded-t-xl"
                   />
@@ -220,7 +219,7 @@ const Oprtions = () => {
                 </div>
                 <div className="border rounded-xl">
                   <img
-                    src="../../../public/Rec.png"
+                    src="../../../public/Rec-min.png"
                     alt="img"
                     className="w-full rounded-t-xl"
                   />

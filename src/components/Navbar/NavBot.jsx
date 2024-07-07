@@ -76,9 +76,11 @@ const NavBot = () => {
             </div>
           </div>
           <div className="group relative">
-            <p className="text-[#202020] font-bold text-[14px]">
-              Производители
-            </p>
+            <Link to="/katalog/manifactures">
+              <p className="text-[#202020] font-bold text-[14px]">
+                Производители
+              </p>
+            </Link>
             <div className="hidden group-hover:block bg-white border py-3 left-0 rounded-md absolute z-50 top-[40px]">
               <ul>
                 <li className="text-[12px] px-5 py-1 hover:bg-slate-100 rounded-md cursor-pointer">
@@ -106,7 +108,11 @@ const NavBot = () => {
             </div>
           </div>
           <div className="group relative">
-            <p className="text-[#202020] font-bold text-[14px]">Покупателям</p>
+            <Link to="manifac">
+              <p className="text-[#202020] font-bold text-[14px]">
+                Покупателям
+              </p>
+            </Link>
             <div className="hidden group-hover:block bg-white border py-3 left-0 rounded-md absolute z-50 top-[40px]">
               <ul>
                 <li className="text-[12px] px-5 py-1 hover:bg-slate-100 rounded-md cursor-pointer">
@@ -133,14 +139,20 @@ const NavBot = () => {
               </ul>
             </div>
           </div>
-          <p className="text-[#202020] font-bold text-[14px]">
-            Кабинеты под ключ
-          </p>
+          <Link to="/kab">
+            <p className="text-[#202020] font-bold text-[14px]">
+              Кабинеты под ключ
+            </p>
+          </Link>
           <Link to="/usluga">
             <p className="text-[#202020] font-bold text-[14px]">Услуги</p>
           </Link>
-          <p className="text-[#202020] font-bold text-[14px]">Акции</p>
-          <p className="text-[#202020] font-bold text-[14px]">Контакты</p>
+          <Link to="/aksiya">
+            <p className="text-[#202020] font-bold text-[14px]">Акции</p>
+          </Link>
+          <Link to="/kontact">
+            <p className="text-[#202020] font-bold text-[14px]">Контакты</p>
+          </Link>
         </div>
         <div className="flex xl:flex gap-3 cursor-pointer ">
           <div className="flex gap-2 items-center">

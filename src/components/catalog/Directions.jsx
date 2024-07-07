@@ -172,7 +172,7 @@ const Directions = () => {
         <div className="flex flex-col col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 justify-between w-full">
           <div className="mb-3 flex flex-col justify-between h-[48%] rounded-xl items-center pt-3 bg-white">
             <img
-              src="../../../public/Phtoto.png"
+              src="../../../public/Phtoto-min.png"
               alt="img"
               className="rounded-t-xl h-[80%] pb-2 object-cover"
             />
@@ -182,7 +182,7 @@ const Directions = () => {
           </div>
           <div className="flex flex-col justify-between h-[48%] rounded-xl items-center bg-white pt-3">
             <img
-              src="../../../public/Photo1.png"
+              src="./Photo1-min.png"
               alt="img"
               className="rounded-t-xl h-[80%] object-cover"
             />
@@ -195,7 +195,7 @@ const Directions = () => {
         <div className="flex flex-col justify-between w-full col-span-1 md:col-span-1">
           <div className="mb-3 flex flex-col justify-between h-[48%] rounded-xl items-center pt-3 bg-white">
             <img
-              src="../../../public/Photo3.png"
+              src="../../../public/Photo3-min.png"
               alt="img"
               className="rounded-t-xl h-[80%] object-cover"
             />
@@ -205,7 +205,7 @@ const Directions = () => {
           </div>
           <div className="flex flex-col justify-between h-[48%] rounded-xl items-center bg-white pt-3">
             <img
-              src="../../../public/Photo4.png"
+              src="../../../public/Photo4-min.png"
               alt="img"
               className="rounded-t-xl h-[80%] object-cover"
             />
@@ -218,7 +218,7 @@ const Directions = () => {
         <div className="flex flex-col h-full justify-between w-full col-span-1">
           <div className="mb-3 flex flex-col justify-between h-full pt-3 rounded-xl items-center bg-white">
             <img
-              src="../../../public/Photo2.png"
+              src="../../../public/Photo2-min.png"
               alt="img"
               className="rounded-t-xl h-[80%] object-cover"
             />

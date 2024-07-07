@@ -11,77 +11,77 @@ const Kabinet = () => {
       date: "07.11.2022",
       title: "Экспресс лаборатория",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "/Photot.png",
+      imgSrc: "/Photot-min.png",
     },
     {
       date: "07.11.2022",
       title: "Лазерная терапия",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "/Photo(1).png",
+      imgSrc: "/Photo(1)-min.png",
     },
     {
       date: "07.11.2022",
       title: "Операционный блок",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "/Photo(2).png",
+      imgSrc: "/Photo(2)-min.png",
     },
     {
       date: "07.11.2022",
       title: "Операционный блок",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "/Photo(2).png",
+      imgSrc: "/Photo(2)-min.png",
     },
     {
       date: "07.11.2022",
       title: "Операционный блок",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "/Photo(2).png",
+      imgSrc: "/Photo(2)-min.png",
     },
     {
       date: "07.11.2022",
       title: "Операционный блок",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "/Photo(2).png",
+      imgSrc: "/Photo(2)-min.png",
     },
     {
       date: "07.11.2022",
       title: "Операционный блок",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "/Photo(2).png",
+      imgSrc: "/Photo(2)-min.png",
     },
     {
       date: "07.11.2022",
       title: "Операционный блок",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "/Photo(2).png",
+      imgSrc: "/Photo(2)-min.png",
     },
     {
       date: "07.11.2022",
       title: "Операционный блок",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "/Photo(2).png",
+      imgSrc: "/Photo(2)-min.png",
     },
     {
       date: "07.11.2022",
       title: "Операционный блок",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "/Photo(2).png",
+      imgSrc: "/Photo(2)-min.png",
     },
     {
       date: "07.11.2022",
       title: "Операционный блок",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "/Photo(2).png",
+      imgSrc: "/Photo(2)-min.png",
     },
     {
       date: "07.11.2022",
       title: "Операционный блок",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "/Photo(2).png",
+      imgSrc: "/Photo(2)-min.png",
     },
   ];
-  if(currentSlide==3){
-    setCurrentSlide(0)
+  if (currentSlide == 3) {
+    setCurrentSlide(0);
   }
 
   const handleNext = () => {
@@ -122,7 +122,9 @@ const Kabinet = () => {
               <div key={index} className="w-[31.5%] flex-shrink-0">
                 <img src={item.imgSrc} alt="" className="w-full" />
                 <div className="border py-5 pl-4 pr-8 rounded-b-xl">
-                  <h3 className="text-[18px] font-medium max-lg:text-[16px] max-md:text-[14px] max-sm:text-[12px]">{item.title}</h3>
+                  <h3 className="text-[18px] font-medium max-lg:text-[16px] max-md:text-[14px] max-sm:text-[12px]">
+                    {item.title}
+                  </h3>
                 </div>
               </div>
             ))}
@@ -162,19 +164,19 @@ const Kabinet = () => {
               <p className="text-center">Быстрая доставка</p>
             </div>
             <div className="border w-[320px] p-[86px] flex flex-col items-center justify-center flex-grow">
-              <img src="/Symbol1.svg" alt="" className="mb-10" />
+              <img src="./Symbol1.svg" alt="" className="mb-10" />
               <p className="text-center">
                 Весь товар <br /> сертифицирован
               </p>
             </div>
             <div className="border w-[320px] p-[86px] flex flex-col items-center justify-center flex-grow">
-              <img src="/Symbol2.svg" alt="" className="mb-10" />
+              <img src="./Symbol2.svg" alt="" className="mb-10" />
               <p className="text-center">
                 Гибкая система <br /> скидок
               </p>
             </div>
             <div className="border w-[320px] p-[86px] flex flex-col items-center justify-center flex-grow">
-              <img src="/Symbol3.svg" alt="" className="mb-10" />
+              <img src="./Symbol3.svg" alt="" className="mb-10" />
               <p className="text-center">Лет рынке</p>
             </div>
           </div>

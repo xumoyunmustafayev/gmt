@@ -13,7 +13,7 @@ const Global = () => {
           <MdNavigateNext /> <span className="text-black">О компании</span>
         </p>
         <div className="mt-8">
-          <img src="./assets/Main.png" alt="igm" />
+          <img src="./assets/Main-min.png" alt="igm" />
           <div className='md:grid md:grid-cols-2 gap-32 mt-10 '>
             <h1 className='text-[48px]'>Глобал медикал трейд</h1>
             <p>

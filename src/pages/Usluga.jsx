@@ -13,7 +13,6 @@ const Usluga = () => {
         <FactSec/>
         <Sertification/>
         <Map/>
-        <Footer/>
     </div>
   )
 }

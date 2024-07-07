@@ -18,7 +18,6 @@ const Analiz = () => {
       <Brend />
       <Information />
       <Map />
-      <Footer />
     </div>
   );
 };

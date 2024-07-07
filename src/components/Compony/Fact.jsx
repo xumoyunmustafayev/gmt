@@ -6,17 +6,17 @@ const Fact = () => {
       const [currentIndex, setCurrentIndex] = useState(0);
       const images = [
         {
-          src: "./assets/doc1.png",
+          src: "./assets/doc1-min.png",
           title: "Константин Константинопольский",
           subtitle: "Основатель компании",
         },
         {
-          src: "./assets/doc2.png",
+          src: "./assets/doc2-min.png",
           title: "поставки медицинских",
           subtitle: "аппаратов в новейшие клиники Минобороны в",
         },
         {
-          src: "./assets/doc3.png",
+          src: "./assets/doc3-min.png",
           title: " регионах страны.",
           subtitle: "Наши сотрудники имеют огромный",
         },
@@ -73,7 +73,7 @@ const Fact = () => {
       <div className="bg-[#088269] my-10 py-20">
         <div className="container">
           <div className="md:grid md:grid-cols-2 gap-24">
-            <img src="./assets/tv.png" alt="img" />
+            <img src="./assets/tv-min.png" alt="img" />
             <div>
               <h1 className="text-[30px] text-white">Наши партнёры</h1>
               <p className="text-white mt-2">

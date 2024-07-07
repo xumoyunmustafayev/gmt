@@ -1,8 +1,9 @@
 import React from "react";
-import Mes from "../../../public/mes.png";
+import Mes from "../../../public/mes-min.png";
 import FooterBot from "./FooterBot";
 
 const Footer = () => {
+   
   
   return (
     <>

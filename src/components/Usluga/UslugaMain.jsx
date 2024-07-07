@@ -44,7 +44,7 @@ const UslugaMain = () => {
                   </div>
                   <div className="w-full md:w-[265px]">
                     <img
-                      src={`/assets/r${(index % 3) + 1}.png`}
+                      src={`/assets/r${(index % 3) + 1}-min.png`}
                       alt="img"
                       className="h-full w-full object-cover"
                     />

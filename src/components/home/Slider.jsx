@@ -1,5 +1,4 @@
-// import { BtnG, BtnWG } from "../ui/Btn";
-
+import Img from "../../../public/assets/Vector.png"
 const SliderItem = () => {
   return (
     <div className={` min-w-full h-full grid grid-cols-1 md:grid-cols-2 `}>
@@ -19,12 +18,12 @@ const SliderItem = () => {
       </div>
 
       <img
-        src="./Vector.png"
+        src={Img}
         alt=""
         className="h-full hidden w-full md:block "
       />
       <img
-        src="./shifo.jpg"
+        src={Img}
         alt=""
         className="h-[200px] sm:h-[300px] rounded-[10px] w-full pt-[7px] md:hidden "
       />

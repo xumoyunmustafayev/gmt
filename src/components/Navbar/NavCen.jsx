@@ -83,30 +83,36 @@ const NavCen = () => {
         </div>
         <div className="flex items-center gap-7 xl:gap-5 md:gap-3 md:flex xl:flex max-md:hidden sm:hidden">
           <div className="text-center relative">
-            <FaRegUser className="block mx-auto w-6 h-6 text-[#088269]" />
+            <FaRegUser className="block mx-auto w-6 h-6 " />
             <p className="text-[#7A7687] hidden lg:block">Войти</p>
           </div>
-          <div className="text-center relative">
-            <FavoriteBorderIcon className="mx-7 text-[#088269]" />
-            <p className="text-[#7A7687] hidden lg:block">Избранное</p>
-            <span className=" top-[-5px] left-11 px-[4px] text-[12px] rounded-full text-white  bg-[#088269] font-bold absolute">
-              {like.length}
-            </span>
-          </div>
-          <div className="text-center relative">
-            <LiaChartBar className="block mx-auto w-6 h-6 text-[#088269]" />
-            <p className="text-[#7A7687] hidden lg:block">Сравнить</p>
-            <span className=" top-[-5px] left-10 px-[4px] text-[12px] rounded-full text-white  bg-[#088269] font-bold absolute">
-              {statist.length}
-            </span>
-          </div>
-          <div className="text-center  relative ">
-            <SlBasket className="block mx-auto w-6 h-6 text-[#088269]" />
-            <p className="text-[#7A7687] hidden lg:block">Корзина</p>
-            <span className=" top-[-5px] left-8 px-[4px] text-[12px] rounded-full text-white  bg-[#088269] font-bold absolute">
-              {list.length}
-            </span>
-          </div>
+          <Link to="/like">
+            <div className="text-center relative">
+              <FavoriteBorderIcon className="mx-7 " />
+              <p className="text-[#7A7687] hidden lg:block">Избранное</p>
+              <span className=" top-[-5px] left-11 px-[4px] text-[12px] rounded-full text-white  bg-[#088269] font-bold absolute">
+                {like.length}
+              </span>
+            </div>
+          </Link>
+          <Link to="/compare">
+            <div className="text-center relative">
+              <LiaChartBar className="block mx-auto w-6 h-6 " />
+              <p className="text-[#7A7687] hidden lg:block">Сравнить</p>
+              <span className=" top-[-5px] left-10 px-[4px] text-[12px] rounded-full text-white  bg-[#088269] font-bold absolute">
+                {statist.length}
+              </span>
+            </div>
+          </Link>
+          <Link to="korzin">
+            <div className="text-center  relative ">
+              <SlBasket className="block mx-auto w-6 h-6 " />
+              <p className="text-[#7A7687] hidden lg:block">Корзина</p>
+              <span className=" top-[-5px] left-8 px-[4px] text-[12px] rounded-full text-white  bg-[#088269] font-bold absolute">
+                {list.length}
+              </span>
+            </div>
+          </Link>
         </div>
       </div>
       <hr />

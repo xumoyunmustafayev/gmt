@@ -1,9 +1,10 @@
 import React from "react";
-import Logo from "../../../public/Logo2.svg";
+import Logo2 from "../../../public/Logo2-min.svg";
 import { FaTelegramPlane } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { SlSocialVkontakte } from "react-icons/sl";
-import Frame from "../../../public/Frame.png";
+import Frame from "../../../public/Frame-min.png";
+import { Link } from "react-router-dom";
 
 const FooterBot = () => {
   return (
@@ -25,7 +26,9 @@ const FooterBot = () => {
               <li className="text-[#F8F7F3]">Доставка</li>
               <li className="text-[#F8F7F3]">Оплата</li>
               <li className="text-[#F8F7F3]">Возврат</li>
-              <li className="text-[#F8F7F3]">FAQ</li>
+              <Link to="faq">
+                <li className="text-[#F8F7F3]">FAQ</li>
+              </Link>
               <li className="text-[#F8F7F3]">Лизинг</li>
               <li className="text-[#F8F7F3]">Отзывы</li>
               <li className="text-[#F8F7F3]">Блог</li>
@@ -80,12 +83,12 @@ const FooterBot = () => {
       <div className="container mx-auto">
         <hr />
       </div>
-      <div className="container mx-auto flex flex-col md:flex-row justify-between py-5">
-        <div className="flex flex-col items-center md:items-start">
-          <img src={Logo} alt="Logo" className="mb-2" />
+      <div className="  container mx-auto  flex flex-col md:flex-row justify-between ">
+        <div className="flex flex-col items-center md:items-start mt-5 ">
+          <img src={Logo2} alt="Logo" className="mb-2" />
           <p>ООО «ГЛОБАЛ МЕДИКАЛ ТРЕЙД»</p>
         </div>
-        <div className="flex flex-col items-center md:items-start">
+        <div className="flex flex-col items-center md:items-start mt-5">
           <p>Мы в соцсетях</p>
           <div className="flex gap-2 mt-2">
             <div className="p-2 bg-white rounded-lg">
@@ -99,12 +102,12 @@ const FooterBot = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center md:items-start">
+        <div className="flex flex-col items-center md:items-start mt-5">
           <p>Партнерская программа</p>
           <p>Оптовые продажи</p>
           <p>Реквизиты</p>
         </div>
-        <div className="flex flex-col items-center md:items-start">
+        <div className="flex flex-col items-center md:items-start mt-5">
           <p>Способы оплаты</p>
           <img src={Frame} alt="Payment Methods" className="mt-2" />
         </div>

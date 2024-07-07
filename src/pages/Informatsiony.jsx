@@ -20,7 +20,6 @@ const Informatsiony = () => {
       <Information />
       <Brend />
       <Map />
-      <Footer />
     </div>
   );
 };

@@ -8,7 +8,6 @@ const Oplata = () => {
     <div>
         <MainOplata/>
         <Map/>
-        <Footer/>
     </div>
   )
 }

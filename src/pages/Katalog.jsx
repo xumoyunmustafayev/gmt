@@ -22,7 +22,6 @@ const Katalog = () => {
       <Information />
       <News />
       <Map />
-      <Footer />
     </div>
   );
 };

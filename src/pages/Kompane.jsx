@@ -16,7 +16,6 @@ const Kompane = () => {
       <Brend />
       <Sertification />
       <Map />
-      <Footer />
     </div>
   );
 };

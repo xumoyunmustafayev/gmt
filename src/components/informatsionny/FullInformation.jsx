@@ -39,12 +39,12 @@ const FullInformation = () => {
             </p>
             <div className="flex flex-col md:flex-row gap-5">
               <img
-                src="/assets/image3.png"
+                src="/assets/image3-min.png"
                 alt="image1"
                 className=" md:w-[47%] w-full mb-4 "
               />
               <img
-                src="/assets/image1.png"
+                src="/assets/image1-min.png"
                 alt="image3"
                 className=" md:w-[47%] w-full mb-4"
               />
@@ -76,12 +76,12 @@ const FullInformation = () => {
             </p>
             <div className="flex flex-col md:flex-row gap-5">
               <img
-                src="/assets/image2.png"
+                src="/assets/image2-min.png"
                 alt="image2"
                 className="md:w-[47%] w-full mb-4"
               />
               <img
-                src="/assets/image3.png"
+                src="/assets/image3-min.png"
                 alt="image3"
                 className="md:w-[47%] w-full mb-4"
               />
@@ -102,12 +102,12 @@ const FullInformation = () => {
             </p>
             <div className="flex flex-col md:flex-row gap-5">
               <img
-                src="/assets/image1.png"
+                src="/assets/image1-min.png"
                 alt="image4"
                 className="md:w-[47%] w-full mb-4"
               />
               <img
-                src="/assets/image2.png"
+                src="/assets/image2-min.png"
                 alt="image4"
                 className="md:w-[47%] w-full mb-4"
               />

@@ -15,7 +15,7 @@ const Customer = () => {
         <div className='flex justify-between gap-6 mx-6 mt-16'>
           <div className=" ">
             <div className="h-48 flex items-center justify-center bg-white rounded-t-xl">
-              <img src="../../../public/img221.png" alt="" className="" />
+              <img src="../../../public/img221-min.png" alt="" className="" />
             </div>
             <div className="py-5 pr-8 pl-5 bg-[#f7f8f2] rounded-b-xl">
               <p>НМИЦ онкологии им. Н.Н. Блохина</p>
@@ -23,7 +23,7 @@ const Customer = () => {
           </div>
           <div className=" ">
             <div className="h-48 flex items-center justify-center bg-white rounded-t-xl">
-              <img src="../../../public/img222.png" alt="" className="" />
+              <img src="../../../public/img222-min.png" alt="" className="" />
             </div>
             <div className="py-5 pr-8 pl-5 bg-[#f7f8f2] rounded-b-xl">
               <p>НМИЦ онкологии им. Н.Н. Блохина</p>
@@ -31,7 +31,7 @@ const Customer = () => {
           </div>
           <div className=" ">
             <div className="h-48 flex items-center justify-center bg-white rounded-t-xl">
-              <img src="../../../public/img223.png" alt="" className="" />
+              <img src="../../../public/img223-min.png" alt="" className="" />
             </div>
             <div className="py-5 pr-8 pl-5 bg-[#f7f8f2] rounded-b-xl">
               <p>НМИЦ онкологии им. Н.Н. Блохина</p>
@@ -47,7 +47,7 @@ const Customer = () => {
           </div>
           <div className=" ">
             <div className="h-48 flex items-center justify-center bg-white rounded-t-xl">
-              <img src="../../../public/img221.png" alt="" className="" />
+              <img src="../../../public/img221-min.png" alt="" className="" />
             </div>
             <div className="py-5 pr-8 pl-5 bg-[#f7f8f2] rounded-b-xl">
               <p>НМИЦ онкологии им. Н.Н. Блохина</p>

@@ -11,7 +11,6 @@ const Delevery = () => {
         <DelMap/>
         <Information/>
         <Kontak/>
-        <Footer/>
     </div>
   )
 }

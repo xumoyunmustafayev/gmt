@@ -14,7 +14,7 @@ const News = () => {
       date: "07.11.2022",
       title: "Название новости 1",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "./Rec.png",
+      imgSrc: "./Rec-min.png",
     },
     {
       date: "07.11.2022",
@@ -32,7 +32,7 @@ const News = () => {
       date: "07.11.2022",
       title: "Название новости 4",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "./Rec.png",
+      imgSrc: "./Rec-min.png",
     },
     {
       date: "07.11.2022",
