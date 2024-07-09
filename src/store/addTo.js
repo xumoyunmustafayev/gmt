@@ -28,7 +28,6 @@ const addToSlice = createSlice({
     },
     removeFromList: (state, action) => {
       state.list = state.list.filter((item) => item.id !== action.payload.id);
-      action.payload.amount = 0;
     },
     addToLike: (state, action) => {
       const itemExists = state.like.some(
@@ -55,24 +54,23 @@ const addToSlice = createSlice({
       );
     },
     addToUser: (state, action) => {
-      state.users = [];
-      state.users.push(action.payload);
+      state.users = [action.payload];
       action.payload.amount = 1;
     },
     addToUserPlus: (state, action) => {
-      const user = state.users.find((user) => user.id === action.payload.id);
-      if (user) {
-        user.amount += 1;
+      const item = state.list.find((item) => item.id === action.payload.id);
+      if (item) {
+        item.amount += 1;
       }
     },
     addToUserMinus: (state, action) => {
-      const user = state.users.find((user) => user.id === action.payload.id);
-      if (user) {
-        if (user.amount > 1) {
-          user.amount -= 1;
+      const item = state.list.find((item) => item.id === action.payload.id);
+      if (item) {
+        if (item.amount > 1) {
+          item.amount -= 1;
         } else {
-          state.users = state.users.filter(
-            (user) => user.id !== action.payload.id
+          state.list = state.list.filter(
+            (item) => item.id !== action.payload.id
           );
         }
       }

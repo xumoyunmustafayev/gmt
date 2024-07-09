@@ -9,11 +9,13 @@ import Customer from "../components/home/Customer";
 import Popular from "../components/home/Popular";
 import Kabinet from "../components/home/Kabinet";
 import Product from "../components/home/Product";
+import NeedHelp from "../components/Modal/NeedHelp";
 
 const HomePage = () => {
   
   return (
     <div className="mt-12">
+
       <Hero />
       <Popular />
       <Kabinet />

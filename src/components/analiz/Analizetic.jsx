@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import {
   addToLike,
-  addToList,
   addToListSecend,
   addToStat,
   addToUserMinus,
@@ -69,10 +68,10 @@ const Analizetic = () => {
         </div>
       </div>
       <div className="mt-10">
-        {users.length == 0 ? (
+        {users.length === 0 ? (
           <img
             src="https://tradebharat.in/assets/catalogue/img/no-product-found.png"
-            alt=""
+            alt="No product found"
             className="w-full h-[400px]"
           />
         ) : (
@@ -80,7 +79,7 @@ const Analizetic = () => {
             <div key={index} className="flex flex-col lg:flex-row gap-10">
               <div className="w-full lg:w-2/3 rounded-xl overflow-hidden">
                 <div className="relative">
-                  <div className=" relative">
+                  <div className="relative">
                     <img
                       src={user.img}
                       alt="img"
@@ -89,12 +88,23 @@ const Analizetic = () => {
                         handleAddToStat(user);
                         window.scrollTo({ top: 0, behavior: "smooth" });
                       }}
-                      
                     />
-                    <div className="flex gap-3 bottom-2 left-[40%] absolute  cursor-pointer md:bottom-5 md:left-5 ">
-                      <img src={user.img} alt="" className="w-[50px] border rounded-lg h-[50px]" />
-                      <img src={user.img} alt="" className="w-[50px] border rounded-lg h-[50px]" />
-                      <img src={user.img} alt="" className="w-[50px] border rounded-lg h-[50px]" />
+                    <div className="flex gap-3 bottom-2 left-[40%] absolute cursor-pointer md:bottom-5 md:left-5">
+                      <img
+                        src={user.img}
+                        alt="thumbnail"
+                        className="w-[50px] border rounded-lg h-[50px]"
+                      />
+                      <img
+                        src={user.img}
+                        alt="thumbnail"
+                        className="w-[50px] border rounded-lg h-[50px]"
+                      />
+                      <img
+                        src={user.img}
+                        alt="thumbnail"
+                        className="w-[50px] border rounded-lg h-[50px]"
+                      />
                     </div>
                   </div>
                   <div className="flex justify-between absolute top-5 right-5 left-5">
@@ -130,17 +140,6 @@ const Analizetic = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="flex gap-4 absolute bottom-5 left-5">
-                    {user.images?.map((img, i) => (
-                      <div key={i} className="p-2 bg-white border rounded-md">
-                        <img
-                          src={img}
-                          alt=""
-                          className="w-10 h-10 sm:w-[50px] sm:h-[50px]"
-                        />
-                      </div>
-                    ))}
-                  </div>
                 </div>
               </div>
               <div className="w-full lg:w-1/3">
@@ -165,35 +164,21 @@ const Analizetic = () => {
                   <div className="mt-4">
                     <p className="text-xl font-semibold">Цена по запросу</p>
                     <div className="flex items-center my-2 gap-2">
-                      <div className="px-5 py-2 border border-[#088269] rounded-3xl md:text-[13px] xl:block 2xl:block md:hidden sm:hidden text-[#088269] font-bold text-[14px]">
-                        <p className="flex gap-2 text-xl cursor-pointer ">
-                          <span
-                            className="text-xl"
-                            onClick={() => handleAddToUserPlus(user)}
-                          >
-                            +
-                          </span>
-                          {user.amount}
-                          <span
-                            className="text-xl"
-                            onClick={() => handleAddToUserMinus(user)}
-                          >
-                            -
-                          </span>
-                        </p>
-                      </div>
+                     
                       <button
-                        className="px-3 py-3 border border-[#088269] rounded-3xl md:text-[12px] xl:block 2xl:block sm:hidden text-[#088269] font-bold text-[12px]"
+                        className="px-3 py-3 border border-[#088269] rounded-3xl text-[#088269] font-bold text-[12px]"
                         onClick={() => handleAddToList(user)}
                       >
                         Задать вопрос
                       </button>
-                      <button
-                        className="px-2 py-3 bg-[#088269] border border-[#088269] rounded-3xl md:text-[13px] xl:block 2xl:block text-[#F8F7F3] font-bold text-[14px]"
-                        onClick={() => handleAddToList(user)}
-                      >
-                        Добавить в корзину
-                      </button>
+                      <Link>
+                        <button
+                          className="px-2 py-3 bg-[#088269] border border-[#088269] rounded-3xl text-[#F8F7F3] font-bold text-[14px]"
+                          onClick={() => handleAddToList(user)}
+                        >
+                          Добавить в корзину
+                        </button>
+                      </Link>
                     </div>
                   </div>
                   <div className="mt-4">

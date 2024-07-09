@@ -23,6 +23,7 @@ import Compare from "./pages/Compare";
 import Faq from "./pages/Faq";
 import Footer from "./components/home/Footer";
 import Korzina from "./pages/Korzina";
+import Profile from "./pages/Profile";
 
 const App = () => {
   return (
@@ -43,6 +44,7 @@ const App = () => {
           <Route path="/korzin" element={<Korzina />} />
           <Route path="/manifac" element={<ManifacMain />} />
           <Route path="/grante" element={<Grante />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/aksiya" element={<Aksiya />} />
           <Route path="/compare" element={<Compare />} />
           <Route path="/katalog/manifactures" element={<Manifactures />} />

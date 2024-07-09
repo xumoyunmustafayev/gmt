@@ -15,8 +15,11 @@ import {
   removeFromStat,
 } from "../../store/addTo";
 import { Link } from "react-router-dom";
+import NeedHelp from "../Modal/NeedHelp";
 
 const Product = () => {
+
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -37,6 +40,9 @@ const Product = () => {
       prevSlide === 0 ? catalogCrData.length - itemsPerSlide : prevSlide - 1
     );
   };
+
+  const [show, setShow] = useState(false);
+  const [notification, setNotification] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(handleNext, 3000);
@@ -59,6 +65,14 @@ const Product = () => {
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  const handleAddToList = (item) => {
+    dispatch(addToList(item));
+    setNotification(true);
+    setTimeout(() => {
+      setNotification(false);
+    }, 3000);
+  };
 
   return (
     <div className="my-36 flex max-lg:flex-col">
@@ -134,7 +148,7 @@ const Product = () => {
                 </h3>
                 <button
                   className=" py-3 w-full border rounded-3xl hover:text-white hover:bg-[#088269] text-[#088269]"
-                  onClick={() => dispatch(addToList(item))}
+                  onClick={() => handleAddToList(item)}
                 >
                   Добавить в корзину
                 </button>
@@ -158,15 +172,28 @@ const Product = () => {
             </div>
           </div>
           <div className="sm:flex  gap-3 items-center  mt-6  max-md:justify-center">
-            <button className="px-7 mb-2  py-3 text-[#088269] rounded-3xl border font-bold text-[12px] sm:text-[14px]">
+            <button
+              className="px-7 mb-2  py-3 text-[#088269] rounded-3xl border font-bold text-[12px] sm:text-[14px]"
+              onClick={() => setShow(true)}
+            >
               Бесплатная консультация
             </button>
-            <button className="px-7 py-3 bg-[#088269] rounded-3xl text-white font-bold text-[12px] sm:text-[14px]">
-              Сертификаты
-            </button>
+            <Link to="/kompane">
+              <button className="px-7 py-3 bg-[#088269] rounded-3xl text-white font-bold text-[12px] sm:text-[14px]">
+                Сертификаты
+              </button>
+            </Link>
           </div>
         </div>
       </div>
+      {show && <NeedHelp setShow={setShow} />}
+      {notification && (
+        <div className="flex items-center justify-center ">
+          <div className="fixed top-0 right-0 block mx-auto  w-[20%]  bg-green-500 text-white text-center py-2">
+            Товар добавлен в корзину!
+          </div>
+        </div>
+      )}
     </div>
   );
 };
