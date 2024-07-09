@@ -9,55 +9,64 @@ const Brend = () => {
   const newsItems = [
     {
       title: "НМИЦ онкологии им. Н.Н. Блохина",
-      imgSrc: "../../../public/brand1-min.png",
+      imgSrc:
+        "https://s3-alpha-sig.figma.com/img/40a3/9e49/81e4863f171c830a16afa5bd4155182f?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dRP-EUusRXn0sD8fEJ71N9MusvOsxq-RdEWxBG0liAcerrdFLSTMberqkPdEZnGqjgCqW~KIALiKgeSq6MApzP1vM5-LZ1wfNELBKWcE52WF0sOKfdCPFhUKALfu1feNeDyWYpBE3sz7HJkORc9tKdtP3MvOwQyn9aJ1Hmo6XIjbpFLBqYJ5WQcu-YpeocQ-8qSlrChsftHRwWuFs311cl8RbHXpT6g8b0hYPTEjIE2ZaoIB6HdmKYvDQ34bffVT5DU68DuVggjqIp6MLh9vONEulaSswxBN~ijOrr~v8xn9WK08TbSi9dZFc3oSXQSNV2pkro2EnEXT3RkftybXvA__",
     },
     {
       date: "07.11.2022",
       title: "НМИЦ онкологии им. Н.Н. Блохина",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "../../../public/brand2-min.png",
+      imgSrc:
+        "https://s3-alpha-sig.figma.com/img/7685/b204/10c5d46143d134f91c83f3dc815c432f?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NLVA4AKPFej~u0Ko4aNIyjJQ7SYmFtuV3gsJuIbBRFY08zItjUsFYSfFcpHOyHnnM9TI1Fc4qcsjDtz9oO6jKUpF~bgDcYQQWvssUjrnPTR-QzhHLMKysKrTNrBQzZwYAmY9ZlR85Hkl6-E8pK7nng8HMmCs4oGWTS5f5BNvFuiZJF2EGW-pDzL3hLCVIMe5DKa3kAdxFim4zg8maKN3NyVEr2NTwLdcXNBqooAEJ~r7Lqw4bkMu-fh~07FWmbK-SyNtlE-qw4I6P-~YkcD30fEhR6EqwDMizfuncZIWz1K1s23p7j~gRajicF7UUZ2p9X9BixQ1AWJ6LFM-eWfwZg__",
     },
     {
       date: "07.11.2022",
       title: "НМИЦ онкологии им. Н.Н. Блохина",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "../../../public/brand3-min.png",
+      imgSrc:
+        "https://s3-alpha-sig.figma.com/img/c24e/9fda/01d837f488eff4200f9cf2a59420b504?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W61HPNK9UiMe6fDb3JHNJK8GkvnSOnHFr4tbOsCWPXm1iGUGxX-sAchImH3C3iIiFx6SP6AFQHaq9lhYLKRewe4ZCE3ef7otVR3dJnInNdZJGJvGGJWlmQg3xLLB-7MWF-CA0BCbK33brsgZV77wd~OIQTdfiJ3ewMGbP290gmzTOJusQHAHFGWhmrplozammLMIIEFwOdUV1SupvmxPutLLzYhqK57xVp-vB8mclCOHcYt-Xpgkww2nq1sxTbUQN4E0YPFPv52ulkX1SxXMDgYPJkNAyYaarwflooVRLytV7F4RQY8kdyaCgzUF-yjJJDlNKSS3ZiN8PPQ-YLWoyw__",
     },
     {
       date: "07.11.2022",
       title: "НМИЦ онкологии им. Н.Н. Блохина",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "../../../public/brand1-min.png",
+      imgSrc:
+        "https://s3-alpha-sig.figma.com/img/c24e/9fda/01d837f488eff4200f9cf2a59420b504?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W61HPNK9UiMe6fDb3JHNJK8GkvnSOnHFr4tbOsCWPXm1iGUGxX-sAchImH3C3iIiFx6SP6AFQHaq9lhYLKRewe4ZCE3ef7otVR3dJnInNdZJGJvGGJWlmQg3xLLB-7MWF-CA0BCbK33brsgZV77wd~OIQTdfiJ3ewMGbP290gmzTOJusQHAHFGWhmrplozammLMIIEFwOdUV1SupvmxPutLLzYhqK57xVp-vB8mclCOHcYt-Xpgkww2nq1sxTbUQN4E0YPFPv52ulkX1SxXMDgYPJkNAyYaarwflooVRLytV7F4RQY8kdyaCgzUF-yjJJDlNKSS3ZiN8PPQ-YLWoyw__",
     },
     {
       date: "07.11.2022",
       title: "НМИЦ онкологии им. Н.Н. Блохина",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "../../../public/brand2-min.png",
+      imgSrc:
+        "https://s3-alpha-sig.figma.com/img/c24e/9fda/01d837f488eff4200f9cf2a59420b504?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W61HPNK9UiMe6fDb3JHNJK8GkvnSOnHFr4tbOsCWPXm1iGUGxX-sAchImH3C3iIiFx6SP6AFQHaq9lhYLKRewe4ZCE3ef7otVR3dJnInNdZJGJvGGJWlmQg3xLLB-7MWF-CA0BCbK33brsgZV77wd~OIQTdfiJ3ewMGbP290gmzTOJusQHAHFGWhmrplozammLMIIEFwOdUV1SupvmxPutLLzYhqK57xVp-vB8mclCOHcYt-Xpgkww2nq1sxTbUQN4E0YPFPv52ulkX1SxXMDgYPJkNAyYaarwflooVRLytV7F4RQY8kdyaCgzUF-yjJJDlNKSS3ZiN8PPQ-YLWoyw__",
     },
     {
       date: "07.11.2022",
       title: "НМИЦ онкологии им. Н.Н. Блохина",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "../../../public/brand3-min.png",
+      imgSrc:
+        "https://s3-alpha-sig.figma.com/img/c24e/9fda/01d837f488eff4200f9cf2a59420b504?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W61HPNK9UiMe6fDb3JHNJK8GkvnSOnHFr4tbOsCWPXm1iGUGxX-sAchImH3C3iIiFx6SP6AFQHaq9lhYLKRewe4ZCE3ef7otVR3dJnInNdZJGJvGGJWlmQg3xLLB-7MWF-CA0BCbK33brsgZV77wd~OIQTdfiJ3ewMGbP290gmzTOJusQHAHFGWhmrplozammLMIIEFwOdUV1SupvmxPutLLzYhqK57xVp-vB8mclCOHcYt-Xpgkww2nq1sxTbUQN4E0YPFPv52ulkX1SxXMDgYPJkNAyYaarwflooVRLytV7F4RQY8kdyaCgzUF-yjJJDlNKSS3ZiN8PPQ-YLWoyw__",
     },
     {
       date: "07.11.2022",
       title: "НМИЦ онкологии им. Н.Н. Блохина",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "../../../public/brand2-min.png",
+      imgSrc:
+        "https://s3-alpha-sig.figma.com/img/c24e/9fda/01d837f488eff4200f9cf2a59420b504?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W61HPNK9UiMe6fDb3JHNJK8GkvnSOnHFr4tbOsCWPXm1iGUGxX-sAchImH3C3iIiFx6SP6AFQHaq9lhYLKRewe4ZCE3ef7otVR3dJnInNdZJGJvGGJWlmQg3xLLB-7MWF-CA0BCbK33brsgZV77wd~OIQTdfiJ3ewMGbP290gmzTOJusQHAHFGWhmrplozammLMIIEFwOdUV1SupvmxPutLLzYhqK57xVp-vB8mclCOHcYt-Xpgkww2nq1sxTbUQN4E0YPFPv52ulkX1SxXMDgYPJkNAyYaarwflooVRLytV7F4RQY8kdyaCgzUF-yjJJDlNKSS3ZiN8PPQ-YLWoyw__",
     },
     {
       date: "07.11.2022",
       title: "НМИЦ онкологии им. Н.Н. Блохина",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "../../../public/brand3.png",
+      imgSrc:
+        "https://s3-alpha-sig.figma.com/img/c24e/9fda/01d837f488eff4200f9cf2a59420b504?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W61HPNK9UiMe6fDb3JHNJK8GkvnSOnHFr4tbOsCWPXm1iGUGxX-sAchImH3C3iIiFx6SP6AFQHaq9lhYLKRewe4ZCE3ef7otVR3dJnInNdZJGJvGGJWlmQg3xLLB-7MWF-CA0BCbK33brsgZV77wd~OIQTdfiJ3ewMGbP290gmzTOJusQHAHFGWhmrplozammLMIIEFwOdUV1SupvmxPutLLzYhqK57xVp-vB8mclCOHcYt-Xpgkww2nq1sxTbUQN4E0YPFPv52ulkX1SxXMDgYPJkNAyYaarwflooVRLytV7F4RQY8kdyaCgzUF-yjJJDlNKSS3ZiN8PPQ-YLWoyw__",
     },
     {
       date: "07.11.2022",
       title: "НМИЦ онкологии им. Н.Н. Блохина",
       description: "Допускает внедрение поэтапного и развития общества.",
-      imgSrc: "../../../public/brand1-min.png",
+      imgSrc:
+        "https://s3-alpha-sig.figma.com/img/c24e/9fda/01d837f488eff4200f9cf2a59420b504?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W61HPNK9UiMe6fDb3JHNJK8GkvnSOnHFr4tbOsCWPXm1iGUGxX-sAchImH3C3iIiFx6SP6AFQHaq9lhYLKRewe4ZCE3ef7otVR3dJnInNdZJGJvGGJWlmQg3xLLB-7MWF-CA0BCbK33brsgZV77wd~OIQTdfiJ3ewMGbP290gmzTOJusQHAHFGWhmrplozammLMIIEFwOdUV1SupvmxPutLLzYhqK57xVp-vB8mclCOHcYt-Xpgkww2nq1sxTbUQN4E0YPFPv52ulkX1SxXMDgYPJkNAyYaarwflooVRLytV7F4RQY8kdyaCgzUF-yjJJDlNKSS3ZiN8PPQ-YLWoyw__",
     },
   ];
 

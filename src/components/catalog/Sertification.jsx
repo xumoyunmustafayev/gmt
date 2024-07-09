@@ -8,34 +8,34 @@ const Sertification = () => {
 
   const newsItems = [
     {
-      imgSrc: "../../../public/assets/Ser-min.png",
+      imgSrc: "./public/assets/Ser-min.png",
     },
     {
-      imgSrc: "../../../public/assets/Ser-min.png",
+      imgSrc: "./public/assets/Ser-min.png",
     },
     {
-      imgSrc: "../../../public/assets/Ser-min.png",
+      imgSrc: "./public/assets/Ser-min.png",
     },
     {
-      imgSrc: "../../../public/assets/Ser-min.png",
+      imgSrc: "./public/assets/Ser-min.png",
     },
     {
-      imgSrc: "../../../public/assets/Ser-min.png",
+      imgSrc: "./public/assets/Ser-min.png",
     },
     {
-      imgSrc: "../../../public/assets/Ser-min.png",
+      imgSrc: "./public/assets/Ser-min.png",
     },
     {
-      imgSrc: "../../../public/assets/Ser-min.png",
+      imgSrc: "./public/assets/Ser-min.png",
     },
     {
-      imgSrc: "../../../public/assets/Ser-min.png",
+      imgSrc: "./public/assets/Ser-min.png",
     },
     {
-      imgSrc: "../../../public/assets/Ser-min.png",
+      imgSrc: "./public/assets/Ser-min.png",
     },
     {
-      imgSrc: "../../../public/assets/Ser-min.png",
+      imgSrc: "./public/assets/Ser-min.png",
     },
 
   ];
