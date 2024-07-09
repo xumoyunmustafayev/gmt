@@ -22,11 +22,9 @@ const NavBot = () => {
             </Link>
             <div className="hidden group-hover:block bg-white border py-3 left-0 pr-10 rounded-md absolute z-10 top-[40px]">
               <ul className="h-[430px] custom-scrollbar">
-                {/* List of catalog items */}
-                <li className="text-[12px] px-5 py-1 md:text[10px] hover:bg-slate-100 rounded-md cursor-pointer">
+                <li className="text-[12px] w-full px-5 py-1 md:text[10px] hover:bg-slate-100 rounded-md cursor-pointer">
                   Реанимация
                 </li>
-                {/* Other list items */}
               </ul>
             </div>
           </div>
@@ -38,11 +36,9 @@ const NavBot = () => {
             </Link>
             <div className="hidden group-hover:block bg-white border py-3 left-0 rounded-md absolute z-10 top-[40px]">
               <ul>
-                {/* List of manufacturers */}
                 <li className="text-[12px] px-5 py-1 hover:bg-slate-100 rounded-md cursor-pointer">
                   A. KRÜSS Optronic
                 </li>
-                {/* Other list items */}
               </ul>
             </div>
           </div>
@@ -54,11 +50,9 @@ const NavBot = () => {
             </Link>
             <div className="hidden group-hover:block bg-white border py-3 left-0 rounded-md absolute z-10 top-[40px]">
               <ul>
-                {/* List of customer options */}
                 <li className="text-[12px] px-5 py-1 hover:bg-slate-100 rounded-md cursor-pointer">
                   Покупателям
                 </li>
-                {/* Other list items */}
               </ul>
             </div>
           </div>
